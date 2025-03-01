@@ -23,13 +23,6 @@ export default function Home() {
         </div>
       </section>
       <section className="mt-[40px] flex flex-wrap gap-7">
-        <OrderCard />
-        <OrderCard />
-        <OrderCard />
-        <OrderCard />
-        <OrderCard />
-        <OrderCard />
-
       </section>
     </div>
   );

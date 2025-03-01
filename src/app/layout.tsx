@@ -16,6 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html>
+      <head>
+        <link rel="manifest" href="/manifest.json" />
+      </head>
       <body>
         <SidebarProvider>
           <AppSidebar />
